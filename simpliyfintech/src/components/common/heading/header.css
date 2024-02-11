@@ -1,0 +1,126 @@
+.head {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.logo h3 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.highlight {
+    padding: 0 30px;
+    margin-top: 10px;
+    /* Add space to the left and right of "SOLUTIONS" */
+}
+
+.space {
+    margin-top: 5px; /* Add a small top margin to create some space between "SOLUTIONS" and "Web Develop" */
+    margin-bottom: 5px; /* Add a small bottom margin */
+  }
+
+.space {
+    margin: 0 50px;
+    /* Adjust the top and bottom margins as needed */
+}
+
+
+.head .icon {
+    margin-left: 10px;
+}
+
+/*---------------header-----------------*/
+header {
+    background-color: rgba(225, 225, 225, 0.2);
+    margin: 0 30px;
+    position: relative;
+}
+
+header ul {
+    padding: 30px 20px;
+    padding-bottom: 10px;
+}
+
+header li {
+    margin-right: 40px;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header line a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 500;
+    padding: 30px 20px;
+}
+
+
+.logbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Optional: Set a height if needed */
+}
+
+header .logbutton a:hover {
+    color: #9CC4D0;
+}
+
+header ul li a:hover {
+    color: #1eb2a6;
+}
+
+.Start {
+    background-color: #1eb2a6;
+    padding: 0 50px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Start {
+        clip-path: none;
+    }
+
+    header {
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+
+    header ul.flexSB {
+        display: none;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+        display: block;
+        background: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 30px;
+        top: -20px;
+
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+}
